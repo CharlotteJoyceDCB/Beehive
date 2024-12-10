@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beehive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="/images/Beehive-logo-1x1.png">
 </head>
 <body>
-    <nav>
-        <!-- navigation bar -->
-    </nav>
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+          <a href="#">
+            <img src="/images/Beehive-Logo-removebg-preview.png" alt="Beehive Logo" class="w-25 h-12 mr-2">
+          </a>
+          <ul class="hidden md:flex space-x-6">
+            <li><a href="#" class="hover:text-amber-700">Home Page</a></li>
+            <li><a href="#" class="hover:text-amber-700">About Us</a></li>
+            <li><a href="#" class="hover:text-amber-700">Contact Us</a></li>
+            <li class="relative group">
+              <a href="#" class="hover:text-orange-600">More Links</a>
+              <ul class="absolute hidden group-hover:block bg-white shadow-lg mt-2 rounded-md overflow-hidden">
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Link 1</a></li>
+                <li><a href="#" class="block px-4 py-2 hover:bg-gray-100">Link 2</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="flex items-center space-x-4">
+            <a href="#" class="px-4 py-2 border border-amber-700 text-amber-700 rounded hover:bg-amber-700 hover:text-white">Join</a>
+            <a href="#" class="px-4 py-2 bg-amber-700 text-white rounded hover:bg-amber-700">Learn</a>
+          </div>
+        </div>
+      </nav>
 
     <main>
         <!-- main section -->
