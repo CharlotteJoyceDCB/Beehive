@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,10 +34,11 @@
           
           <!-- Nav Links -->
           <ul class="hidden md:flex space-x-8 items-center">
-            <li><a href="#" class="text-gray-700 hover:text-amber-700">Home</a></li>
-            <li><a href="#" class="text-gray-700 hover:text-amber-700">About Us</a></li>
-            <li><a href="#" class="text-gray-700 hover:text-amber-700">Contact Us</a></li>
-            <li><a href="#" class="text-gray-700 hover:text-amber-700">More Links</a></li>
+            <li><a href="index.html#home" class="text-gray-700 hover:text-amber-700">Home</a></li>
+            <li><a href="index.html#about" class="text-gray-700 hover:text-amber-700">About</a></li>
+            <li><a href="index.html#products" class="text-gray-700 hover:text-amber-700">Products</a></li>
+            <li><a href="index.html#blog" class="text-gray-700 hover:text-amber-700">Blog</a></li>
+            <li><a href="index.html#contact" class="text-gray-700 hover:text-amber-700">Contact</a></li>
           </ul>
       
           <!-- Buttons -->
@@ -61,7 +62,7 @@
         </nav>
       </header>
 
-      <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url(/images/beehive-image.jpeg);">
+      <section class="relative w-full h-screen bg-cover bg-center" id="home" style="background-image: url(/images/beehive-image.jpeg);">
         <div class="absolute inset-0 bg-black bg-opacity-40"></div>
         <div class="relative z-10 container mx-auto px-6 lg:px-12 h-full flex items-center">
           <div class="text-white max-w-lg">
@@ -79,7 +80,7 @@
         </div>
       </section>
 
-      <section class="bg-white py-16">
+      <section class="bg-white py-16" id="about">
         <div class="container mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           <!-- Text Content -->
           <div>
@@ -121,7 +122,7 @@
         </div>
       </section>
 
-      <section class="py-16 bg-white">
+      <section class="py-16 bg-white" id="products">
         <div class="container mx-auto px-6 lg:px-12">
           <!-- Section Title -->
           <h2 class="text-2xl font-bold text-gray-800 text-center mb-12">Our Products</h2>
@@ -164,7 +165,7 @@
         </div>
       </section>
 
-      <section class="py-16 bg-white">
+      <section class="py-16 bg-white" id="blog">
         <div class="container mx-auto px-6 lg:px-12">
           <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-12">
             Discover the Innovative Features of Beehive Office Pods
@@ -215,7 +216,7 @@
       </section>
 
     <!-- Customer Testimonials Section -->
-        <section class="py-12 bg-gray-50">
+        <section class="py-12 bg-gray-50" id="testimonials">
             <!-- Title -->
             <div class="text-center mb-8">
                 <h2 class="text-3xl font-bold text-gray-800 mb-2">
@@ -317,7 +318,7 @@
             </div>
         </section>
 
-        <div class="w-screen bg-amber-700 text-white overflow-hidden">
+        <div class="w-screen bg-amber-700 text-white overflow-hidden" id="contact">
             <div class="container mx-auto px-6 py-12">
               <h1 class="text-3xl font-bold mb-4">Discover Your Perfect Office Pod</h1>
               <p class="text-lg mb-6">
