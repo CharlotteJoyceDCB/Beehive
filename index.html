@@ -7,21 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="icon" href="/images/Beehive-logo-1x1.png">
-    <style>
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-100%);
-          }
-        }
-      
-        .animate-scroll {
-            display: flex;
-            animation: scroll 60s linear infinite;
-        }
-      </style>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body class="overflow-x-hidden">
     <header class="bg-white shadow-md">
@@ -42,7 +28,7 @@
           </ul>
       
           <!-- Buttons -->
-          <div class="flex items-center space-x-4">
+          <div class="nav-action-buttons flex items-center space-x-4">
             <a href="#" class="border border-amber-700 text-amber-700 px-4 py-2 rounded hover:bg-amber-700 hover:text-white transition">
               Join
             </a>
@@ -350,6 +336,7 @@
                   />
                   <button
                     type="submit"
+                    id="signup-btn"
                     class="w-full lg:w-auto px-6 py-3 bg-amber-700 text-white font-semibold rounded-r-lg lg:rounded-r-md hover:bg-amber-800 transition duration-300"
                   >
                     Sign Up
@@ -412,7 +399,7 @@
           
                 <!-- Copyright -->
                 <div class="text-gray-600 text-sm text-center">
-                  © 2024 Beehive. All rights reserved.
+                  ©Made by Charlotte Joyce. 2024 Beehive. All rights reserved. 
                   <div class="mt-2 flex justify-center space-x-4">
                     <a href="#" class="hover:text-orange-600">Privacy Policy</a>
                     <a href="#" class="hover:text-orange-600">Terms of Service</a>
@@ -423,11 +410,10 @@
             </div>
           </footer>
           <button
-          id="back-to-top"
-          class="hidden fixed bottom-5 right-5 bg-amber-700 text-white px-3 py-2 rounded-full shadow-lg hover:bg-amber-800 transition-opacity opacity-80"
-        >
-        <i class="fa-solid fa-chevron-up"></i>
-        </button>
+            id="back-to-top"
+            class="hidden fixed bottom-5 right-5 bg-amber-700 text-white px-3 py-2 rounded-full shadow-lg hover:bg-amber-800 transition-opacity opacity-80">
+            <i class="fa-solid fa-chevron-up"></i>
+          </button>
         
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>

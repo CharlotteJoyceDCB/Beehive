@@ -1,0 +1,39 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+.animate-scroll {
+    display: flex;
+    animation: scroll 60s linear infinite;
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 770px) {
+    .nav-action-buttons {
+        visibility: hidden;
+        display: none;
+    }
+    #signup-btn {
+        border-radius: 8px;
+    }
+}
+@media (max-width: 767px) {
+    .nav-action-buttons {
+        visibility: hidden;
+        display: none;
+    }
+    #signup-btn {
+        border-radius: 8px;
+    }
+}
+@media (max-width: 576px) {
+    .nav-action-buttons {
+        visibility: hidden;
+        display: none;
+    }
+}
