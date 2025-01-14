@@ -1,3 +1,8 @@
+document.getElementById('menu-toggle').addEventListener('click', function () {
+  const menu = document.getElementById('menu');
+  menu.classList.toggle('hidden');
+});
+
 const backToTopButton = document.getElementById("back-to-top");
   // Show or hide the button when scrolling
   window.addEventListener("scroll", () => {
@@ -16,8 +21,5 @@ const backToTopButton = document.getElementById("back-to-top");
     });
   });
   
-document.getElementById('menu-toggle').addEventListener('click', function () {
-  const menu = document.getElementById('menu');
-  menu.classList.toggle('hidden');
-});
+
 
